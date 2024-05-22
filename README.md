@@ -29,7 +29,7 @@ Welcome to **Weather Checker**, your go-to web application for real-time weather
 
 4. **Open `index.html`** in your web browser to start using the app.
 
-**🌐 Or you can simply enter on this site: https://nerdfilip.github.io/Weather-Checker/client.html**
+**🌐 Or you can simply enter on this site: https://nerdfilip.github.io/Weather-Checker/client.html** (*But after you start server on your computer*)
 
 ## 📖 Usage
 
