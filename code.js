@@ -54,9 +54,12 @@ function updateWeatherDisplay(data) {
     const windDeg = windDirection(data.wind.deg);
     // Preluare umiditate
     const humidity = data.main.humidity;
-    // Convertire ora răsăritului și apusului în format local
-    const sunrise = new Date(data.sys.sunrise * 1000).toLocaleTimeString();
-    const sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString();
+
+    // Preluare fus orar și calculare ora locală pentru răsărit și apus
+    const timezoneOffset = data.timezone;
+    const sunrise = new Date((data.sys.sunrise + timezoneOffset) * 1000).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZone: 'UTC' });
+    const sunset = new Date((data.sys.sunset + timezoneOffset) * 1000).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZone: 'UTC' });
+
     // Determinare dacă este necesară umbrela
     const needUmbrella = description.includes('rain') ? "Yes, take an umbrella." : "No umbrella needed.";
     // Determinare dacă este necesar paltonul
