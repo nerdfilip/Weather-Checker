@@ -29,6 +29,8 @@ Welcome to **Weather Checker**, your go-to web application for real-time weather
 
 4. **Open `index.html`** in your web browser to start using the app.
 
+**🌐 Or you can simply enter on this site: https://nerdfilip.github.io/Weather-Checker/client.html**
+
 ## 📖 Usage
 
 1. Enter the name of a city in the input field.
