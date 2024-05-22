@@ -64,4 +64,6 @@ Enter **"New York"** in the input field and click **"Get Weather"**. The applica
 
 🌤️ Check the weather in your city now!
 
+*We commented absolutely all the code in Romanian language.*
+
 Made with ❤️ by [@nerdfilip](https://github.com/nerdfilip) & [@alexlapa](https://github.com/AlexandruLapa)
